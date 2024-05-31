@@ -20,9 +20,9 @@ const EditPage = () => {
     }
     return (
         <div className='d-flex align-items-center justify-content-center'>
-            <div className="w-40 d-flex align-items-center justify-content-center flex-column" style={{ width: '550px', height: '800px' }}>
+            <div className="w-40 d-flex align-items-center justify-content-center flex-column" style={{ width: '450px', height: '650px' }}>
                 <div ref={memeRef} className='d-flex mb-3 border' style={{ width: '100%', height: '100%' }}>
-                    <img src={params.get("url")} alt="Some meme" style={{ width: '500px', height: '700px' }} />
+                    <img src={params.get("url")} alt="Some meme" style={{ width: '520px', height: '500px' }} />
                     <div>
                         {
                             Array(count).fill(0).map((e, index) => <Text key={index} />)
